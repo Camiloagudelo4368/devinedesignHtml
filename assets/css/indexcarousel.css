@@ -42,87 +42,74 @@
  }
  
  .carousel-item:nth-child(1) {
-    /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-    /* background-image: url("../../assets/img/main/slidemain.JPEG"); */
-    background-image: url("../../assets/img/main/slidemain.jpg");
+    background-image: url("../../assets/img/main/slidemain_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
  .carousel-item:nth-child(2) {
-    /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-    background-image: url("../../assets/img/main/slideimage1.jpeg");
+    background-image: url("../../assets/img/main/slideimage_1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
  .carousel-item:nth-child(3) {
-     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/30.jpg"); */
-     background-image: url("../../assets/img/main/slideimage2.jpeg");
+     background-image: url("../../assets/img/main/slideimage_2.jpeg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
  }
 
  .carousel-item:nth-child(4) {
-     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-     background-image: url("../../assets/img/main/slideimage3.jpeg");
+     background-image: url("../../assets/img/main/slideimage_3.jpeg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
  }
  .carousel-item:nth-child(5) {
-     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-     background-image: url("../../assets/img/main/slideimage4.jpeg");
+     background-image: url("../../assets/img/main/slideimage_4.jpeg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
  }
  .carousel-item:nth-child(6) {
-     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-     background-image: url("../../assets/img/main/slideimage5.jpeg");
+     background-image: url("../../assets/img/main/slideimage_5.jpeg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
  }
  .carousel-item:nth-child(7) {
-     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-     background-image: url("../../assets/img/main/slideimage6.jpg");
+     background-image: url("../../assets/img/main/slideimage_6.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
  }
  .carousel-item:nth-child(8) {
-     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-     background-image: url("../../assets/img/main/slideimage7.jpeg");
+     background-image: url("../../assets/img/main/slideimage_7.jpeg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
  }
  .carousel-item:nth-child(9) {
-     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-     background-image: url("../../assets/img/main/slideimage8.jpeg");
+     background-image: url("../../assets/img/main/slideimage_8.jpeg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
  }
  .carousel-item:nth-child(10) {
-     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-     background-image: url("../../assets/img/main/slideimage9.jpg");
+     background-image: url("../../assets/img/main/slideimage_9.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
  }
  .carousel-item:nth-child(11) {
-     /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg"); */
-     background-image: url("../../assets/img/main/slideimage10.jpg");
+     background-image: url("../../assets/img/main/slideimage_10.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
  }
  .carousel-item:nth-child(12) {
-    /* background-image: url("https://mdbootstrap.com/img/Photos/Others/images/76.jpg"); */
-    background-image: url("../../assets/img/main/slideimage11.jpg");
+    background-image: url("../../assets/img/main/slideimage_11.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
