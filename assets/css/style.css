@@ -54,45 +54,112 @@ h1, h2, h3, ul {
 /* ----------------------------------------------------------------------------- */
 
 /* Header Navbar */
+
 #navbarText {
     /* width: 10rem !important; */
-    background-color: rgba(255, 255, 255, .4);
-    margin: 0 !important;
+    width: 100%;
+    /* background-color: rgba(255, 255, 255, .4); */
+    /* margin: 0 !important; */
     padding: 1rem;
+    /* text-align: left; */
+    padding: .6rem 10% 1.6rem 0 !important;
 }
 
-.logo {
-    background-color: rgba(255, 255, 255, .4) ;
+.headerLogo {
+    /* background-color: rgba(255, 255, 255, .4) ; */
     /* background-color: #111111; */
-    position: fixed;
-    top: 0;
+    /* position: absolute; */
+    /* top: 1rem; */
+    /* left:0; */
     /* left:45%; */
-    padding-top: .35rem;
-    width: 100%;
-    text-align: center;
+    /* padding-top: .35rem; */
+    /* width: 100%; */
+    /* text-align: center; */
     /* text-align: left;    */
     z-index: 1000;
+    /* float: left; */
+    position: absolute;
+    /* width: 150px;
+    height: 100px; */
+    top: 1rem;
+    /* float: left; */
+    /* position: relative; */
+    /* margin: 0 0 0 10%; */
+    margin-left: 10%;
 }
 
-.logo img {
-    width: 20rem;
-    width: 15rem;
-    height: auto;
+.headerLogo img {
+    width: 158px;
+    /* height: auto; */
     border-bottom: .001rem solid #BDBDBD;
 }
 
 .navCa {
     /* margin: 0 auto; */
-    position: fixed;
+    /* position: absolute; */
+    /* background-color: transparent; */
     padding: 0rem 0rem 0rem 0rem;
-    top: 13rem;
-    top: 8.75rem;
+    /* margin: 0; */
+    /* margin: 2rem 0rem 0rem 0rem; */
+    /* top: 13rem; */
+    /* top: 1.75rem; */
+    width: 55%;
+    /* float:right; */
     width: 100%;
-    /* padding: .2rem */
+    /* height: 100px;; */
+    /* float: right; */
+    /* top: 1rem; */
+    /* padding: 2rem */
     /* border-bottom: .001rem solid #BDBDBD; */
+    /* border-bottom: .001rem solid #BDBDBD; */
+    box-shadow: none !important;
 }
 
+header {
+    /* background-color: #fff; */
+    /* background-color: rgba(255, 255, 255, .3); */
+    width: 100%;
+    /* height: 100px; */
+    align-items: baseline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: 0;
+    border: none !important;
+    box-shadow: none !important;
 
+}
+
+.navbarMain {
+    padding: 2.5rem 0 0rem 0 !important;
+    /* background-color: rgba(255, 255, 255, .3); */
+}
+nav {
+    background-color: rgba(255, 255, 255, .6);
+    /* box-shadow: none !important; */
+}
+
+.navLink {
+    font-size: .9rem;
+    font-size: 1.2rem;
+    /* font-weight: 600; */
+    /* padding-top: .5rem; */
+    /* font-family: 'Russo One', sans-serif; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* border-right: .1rem solid #BDBDBD; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    color: #FFFFFF;
+    color: #363636;
+    color: #323639;
+    /* color: #494949; */
+    /* color: #FFFFFF; */
+    /* color: #474249; */
+    color: #0E0D0B;
+    color: #716D6D;
+
+}
 
 .navbar.center .navbar-inner {
     text-align: center;
@@ -106,10 +173,15 @@ h1, h2, h3, ul {
 
 .navCa .navbar-nav>li>a:hover {
     color: #1976D2;
+    color: #000000;
 }
 
 .navCa .navbar-nav>li>a:focus, .navCa .navbar-nav>li.active>a {
     color: #FFC107;
+    color: #8E3472;
+    color: #c1479c;
+    color: #c1479c;
+    /* color: #d34eaa; */
 }
 
 #navbarMain .navbar-nav {
@@ -147,35 +219,19 @@ h1, h2, h3, ul {
     font-family: 'Permanent Marker', cursive;
 }
 
-.navLink {
-    font-size: .9rem;
-    /* font-weight: 600; */
-    /* padding-top: .5rem; */
-    /* font-family: 'Russo One', sans-serif; */
-    /* font-family: 'Permanent Marker', cursive; */
-    /* border-right: .1rem solid #BDBDBD; */
-    /* font-family: 'Lobster', cursive; */
-    /* font-family: 'Montserrat', sans-serif; */
-    color: #FFFFFF;
-    color: #363636;
-    color: #323639;
-    /* color: #FFFFFF; */
-    /* color: #474249; */
-    /* color: #716D6D; */
-}
-
-.shrink {
+.headerTransform {
     -webkit-transition: background-color 1000ms linear;
     -moz-transition: background-color 1000ms linear;
     -o-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
     background-color: rgba(255, 255, 255, .7);
-    -webkit-transition: padding 500ms linear;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+    /* -webkit-transition: padding 500ms linear;
     -moz-transition: padding 500ms linear;
     -o-transition: padding 500ms linear;
     -ms-transition: padding 500ms linear;
-    transition: padding 500ms linear;
+    transition: padding 500ms linear; */
 }
 
 .header_content {
@@ -256,38 +312,11 @@ h1, h2, h3, ul {
 #carouselExampleCaptions {
     margin: 0 auto;
     /* position: fixed; */
-    /* top: 12.5rem; */
-    width: 100vw;
-    height: 100%;    
+    top: 1rem;
+    width: 100;
+    /* height: 100%; */
 }
 
-.carouselImg {
-    /* width: 700rem; */
-    height: 93vh;
-    /* width: 68vh; */
-    
-}
-
-.startContent {
-    background-color: rgba(52, 44, 25, .7);
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0;
-    margin: 0;
-}
-
-.startContentArrow {
-    width: 100%;
-    align-items: center;
-    position: absolute;
-    top: 90%;
-    left: 45%;
-    z-index: 10;
-}
 
 /* ----------------------------------------------------------------------------- */
 
@@ -466,6 +495,15 @@ h1, h2, h3, ul {
 /* ----------------------------------------------------------------------------- */
 
 /* Media query */
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: 2.8rem 0rem 2.25rem 0 !important;
+    }
+    #navbarText {
+        padding: 3rem 10% 1.6rem 2rem !important;
+    }
+}
 
 @media screen and (max-width: 640px) {
     #carouselExampleCaptions {
