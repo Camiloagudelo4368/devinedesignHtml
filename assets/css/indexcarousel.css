@@ -48,7 +48,7 @@
     background-position: center center;
 }
  .carousel-item:nth-child(2) {
-    background-image: url("../../assets/img/main/slideimage_.jpg");
+    background-image: url("../../assets/img/main/slideimage_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -97,7 +97,7 @@
      background-position: center center;
  }
  .carousel-item:nth-child(10) {
-     background-image: url("../../assets/img/main/slideimage_9.jpg");
+     background-image: url("../../assets/img/main/slideimage_9.jpeg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
